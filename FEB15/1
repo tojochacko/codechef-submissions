@@ -1,0 +1,18 @@
+t = input()
+map1 = []
+map2 = []
+
+for i in range(100000):
+    if(i % 2 == 0):
+        map1.append('+')
+        map2.append('-')
+    else:
+        map1.append('-')
+        map2.append('+')
+
+print(map1)
+print(map2)
+
+#while(t!=0):
+#    print(t)
+#    t -= 1
